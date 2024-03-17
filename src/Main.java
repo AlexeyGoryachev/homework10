@@ -11,6 +11,9 @@ public class Main {
         System.out.println("Task 2.");
         System.out.println(fullName.toUpperCase());
         System.out.println(" ");
-
+        System.out.println("Task 3.");
+        String fullName2 = "Иванов Семён Семёнович";
+        fullName2 = fullName2.replace("ё", "е");
+        System.out.println(fullName2);
     }
 }
